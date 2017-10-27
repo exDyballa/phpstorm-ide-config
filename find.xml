@@ -7,7 +7,7 @@
     <option name="SEARCH_OVERLOADED_METHODS" value="true" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="jquery.js" />
+    <option name="FILE_MASK" value="*" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
@@ -26,6 +26,7 @@
       <mask>jquery</mask>
       <mask>jquery.</mask>
       <mask>jquery.js</mask>
+      <mask>*</mask>
     </recentFileMasks>
   </component>
 </application>
