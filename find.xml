@@ -1,32 +1,40 @@
 <application>
   <component name="FindSettings">
-    <option name="caseSensitive" value="true" />
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
-    <option name="searchOverloadedMethods" value="true" />
-    <option name="SEARCH_OVERLOADED_METHODS" value="true" />
-    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*" />
+    <option name="FILE_MASK" value="*blade*.php" />
     <recentFileMasks>
-      <mask>*.properties</mask>
-      <mask>*.html</mask>
-      <mask>*.jsp</mask>
-      <mask>*.xml</mask>
-      <mask>*.java</mask>
+      <mask>*Mapper*.php</mask>
+      <mask>*blade..php</mask>
+      <mask>.php</mask>
+      <mask>*.ph</mask>
+      <mask>*.p</mask>
+      <mask>*.</mask>
       <mask>*.js</mask>
-      <mask>*.as</mask>
-      <mask>*.css</mask>
-      <mask>*.mxml</mask>
+      <mask>*T.php</mask>
+      <mask>*Te.php</mask>
+      <mask>*Test.php</mask>
+      <mask>*Test*.php</mask>
+      <mask>ho*.php</mask>
+      <mask>*bl.php</mask>
+      <mask>*blad.php</mask>
+      <mask>*C.php</mask>
+      <mask>*Con.php</mask>
+      <mask>*Contr.php</mask>
+      <mask>*Contro.php</mask>
+      <mask>*Control.php</mask>
+      <mask>*Controller.php</mask>
+      <mask>*Controller*.php</mask>
+      <mask>*Conr*.php</mask>
+      <mask>*Cor*.php</mask>
+      <mask>*r*.php</mask>
+      <mask>r*.php</mask>
       <mask>*.php</mask>
-      <mask>j</mask>
-      <mask>jq</mask>
-      <mask>jqu</mask>
-      <mask>jquer</mask>
-      <mask>jquery</mask>
-      <mask>jquery.</mask>
-      <mask>jquery.js</mask>
-      <mask>*</mask>
+      <mask>*b.php</mask>
+      <mask>*bla.php</mask>
+      <mask>*blade.php</mask>
+      <mask>*blade*.php</mask>
     </recentFileMasks>
   </component>
 </application>
