@@ -3,10 +3,9 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.php" />
     <recentFileMasks>
-      <mask>*Mapper*.php</mask>
       <mask>*blade..php</mask>
-      <mask>.php</mask>
       <mask>*.ph</mask>
       <mask>*.p</mask>
       <mask>*.</mask>
@@ -18,19 +17,21 @@
       <mask>ho*.php</mask>
       <mask>*bl.php</mask>
       <mask>*blad.php</mask>
-      <mask>*C.php</mask>
-      <mask>*Con.php</mask>
       <mask>*Contr.php</mask>
-      <mask>*Contro.php</mask>
-      <mask>*Control.php</mask>
-      <mask>*Controller.php</mask>
-      <mask>*Controller*.php</mask>
       <mask>*Conr*.php</mask>
       <mask>*Cor*.php</mask>
       <mask>*r*.php</mask>
       <mask>r*.php</mask>
-      <mask>*b.php</mask>
       <mask>*bla.php</mask>
+      <mask>*C.php</mask>
+      <mask>*Co.php</mask>
+      <mask>*Con.php</mask>
+      <mask>*Contro.php</mask>
+      <mask>*Control.php</mask>
+      <mask>*Controller.php</mask>
+      <mask>*Controller*.php</mask>
+      <mask>.php</mask>
+      <mask>*b.php</mask>
       <mask>*blade.php</mask>
       <mask>*blade*.php</mask>
       <mask>*.php</mask>
