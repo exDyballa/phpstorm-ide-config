@@ -7,6 +7,7 @@
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.php" />
     <recentFileMasks>
       <mask>*blade..php</mask>
       <mask>*.ph</mask>
@@ -26,6 +27,9 @@
       <mask>*r*.php</mask>
       <mask>r*.php</mask>
       <mask>*bla.php</mask>
+      <mask>*b.php</mask>
+      <mask>*blade.php</mask>
+      <mask>*blade*.php</mask>
       <mask>*C.php</mask>
       <mask>*Co.php</mask>
       <mask>*Con.php</mask>
@@ -34,9 +38,6 @@
       <mask>*Controller.php</mask>
       <mask>*Controller*.php</mask>
       <mask>.php</mask>
-      <mask>*b.php</mask>
-      <mask>*blade.php</mask>
-      <mask>*blade*.php</mask>
       <mask>*.php</mask>
     </recentFileMasks>
   </component>
