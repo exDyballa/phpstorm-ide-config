@@ -2,11 +2,11 @@
   <option name="LINE_SEPARATOR" value="&#10;" />
   <option name="RIGHT_MARGIN" value="140" />
   <PHPCodeStyleSettings>
-    <option name="INDENT_CODE_IN_PHP_TAGS" value="true" />
     <option name="COMMA_AFTER_LAST_ARRAY_ELEMENT" value="true" />
     <option name="PHPDOC_BLANK_LINE_BEFORE_TAGS" value="true" />
     <option name="PHPDOC_KEEP_BLANK_LINES" value="false" />
     <option name="PHPDOC_BLANK_LINES_AROUND_PARAMETERS" value="true" />
+    <option name="PHPDOC_WRAP_LONG_LINES" value="true" />
     <option name="LOWER_CASE_BOOLEAN_CONST" value="true" />
     <option name="LOWER_CASE_NULL_CONST" value="true" />
     <option name="ELSE_IF_STYLE" value="COMBINE" />
@@ -20,5 +20,6 @@
     <option name="KEEP_BLANK_LINES_BEFORE_RBRACE" value="0" />
     <option name="BLANK_LINES_BEFORE_PACKAGE" value="0" />
     <option name="BLANK_LINES_AFTER_PACKAGE" value="1" />
+    <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
   </codeStyleSettings>
 </code_scheme>
