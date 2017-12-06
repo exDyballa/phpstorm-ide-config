@@ -1,4 +1,4 @@
-<code_scheme name="DefaultCodeStyle" version="173">
+<code_scheme name="Exporo">
   <option name="LINE_SEPARATOR" value="&#10;" />
   <option name="HTML_KEEP_LINE_BREAKS_IN_TEXT" value="false" />
   <option name="HTML_KEEP_BLANK_LINES" value="1" />
@@ -10,13 +10,6 @@
     <option name="HEX_COLOR_LOWER_CASE" value="true" />
     <option name="HEX_COLOR_SHORT_FORMAT" value="true" />
   </CssCodeStyleSettings>
-  <HTMLCodeStyleSettings>
-    <option name="HTML_KEEP_LINE_BREAKS_IN_TEXT" value="false" />
-    <option name="HTML_KEEP_BLANK_LINES" value="1" />
-    <option name="HTML_ALIGN_ATTRIBUTES" value="false" />
-    <option name="HTML_SPACE_INSIDE_EMPTY_TAG" value="true" />
-    <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="" />
-  </HTMLCodeStyleSettings>
   <PHPCodeStyleSettings>
     <option name="ALIGN_PHPDOC_PARAM_NAMES" value="true" />
     <option name="ALIGN_PHPDOC_COMMENTS" value="true" />
@@ -26,8 +19,9 @@
     <option name="LOWER_CASE_BOOLEAN_CONST" value="true" />
     <option name="LOWER_CASE_NULL_CONST" value="true" />
     <option name="ELSE_IF_STYLE" value="COMBINE" />
+    <option name="BLANK_LINE_BEFORE_RETURN_STATEMENT" value="true" />
     <option name="KEEP_RPAREN_AND_LBRACE_ON_ONE_LINE" value="true" />
-    <option name="ALIGN_CLASS_CONSTANTS" value="true" />
+    <option name="BLANK_LINES_AROUND_CONSTANTS" value="1" />
     <option name="FORCE_SHORT_DECLARATION_ARRAY_STYLE" value="true" />
     <option name="PLACE_PARENS_FOR_CONSTRUCTOR" value="1" />
   </PHPCodeStyleSettings>
@@ -57,14 +51,15 @@
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="PHP">
+    <option name="KEEP_CONTROL_STATEMENT_IN_ONE_LINE" value="false" />
     <option name="KEEP_BLANK_LINES_IN_DECLARATIONS" value="0" />
-    <option name="KEEP_BLANK_LINES_IN_CODE" value="0" />
+    <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
     <option name="KEEP_BLANK_LINES_BEFORE_RBRACE" value="0" />
     <option name="BLANK_LINES_AFTER_PACKAGE" value="1" />
+    <option name="BLANK_LINES_AROUND_FIELD" value="0" />
     <option name="SPECIAL_ELSE_IF_TREATMENT" value="true" />
     <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
     <option name="ALIGN_MULTILINE_FOR" value="false" />
-    <option name="ALIGN_GROUP_FIELD_DECLARATIONS" value="true" />
     <option name="SPACE_AFTER_TYPE_CAST" value="true" />
     <option name="CALL_PARAMETERS_WRAP" value="5" />
     <option name="CALL_PARAMETERS_LPAREN_ON_NEXT_LINE" value="true" />
