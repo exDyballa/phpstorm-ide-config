@@ -39,8 +39,10 @@
       <option name="auto-sync" value="true" />
     </driver>
     <driver id="sqlite.xerial">
-      <artifact name="Xerial SQLiteJDBC" use="true" />
+      <artifact name="Xerial SQLiteJDBC" use="true" version="3.16.1" />
       <option name="auto-sync" value="true" />
+      <option name="auto-commit" value="true" />
+      <option name="send-app-info" value="true" />
     </driver>
     <driver id="sybase.ase">
       <option name="auto-sync" value="true" />
