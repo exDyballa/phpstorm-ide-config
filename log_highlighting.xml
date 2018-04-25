@@ -14,7 +14,6 @@
         <LogParsingPattern name="TeamCity build log" pattern="^\[([^]]+)](.):\s*(\[[^]]+])?(.*)$" timePattern="HH:mm:ss" linePattern="^\[" timeId="0" severityId="1" categoryId="2" />
       </list>
     </parsing>
-    <settingsVersion>2</settingsVersion>
-    <lastAddedDefaultFormat>3</lastAddedDefaultFormat>
+    <settingsVersion>1</settingsVersion>
   </component>
 </application>
