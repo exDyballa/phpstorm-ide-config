@@ -1,10 +1,24 @@
 <application>
   <component name="TextDiffSettings">
     <option name="PLACES_MAP">
-      <entry key="Default">
+      <entry key="ChangesView">
         <PlaceSettings>
-          <option name="HIGHLIGHT_POLICY" value="BY_LINE" />
+          <option name="EXPAND_BY_DEFAULT" value="false" />
         </PlaceSettings>
+      </entry>
+      <entry key="CommitDialog">
+        <PlaceSettings>
+          <option name="EXPAND_BY_DEFAULT" value="false" />
+        </PlaceSettings>
+      </entry>
+      <entry key="Default">
+        <PlaceSettings />
+      </entry>
+      <entry key="Merge">
+        <PlaceSettings />
+      </entry>
+      <entry key="TestsFiledAssertions">
+        <PlaceSettings />
       </entry>
     </option>
   </component>

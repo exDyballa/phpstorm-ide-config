@@ -1,8 +1,9 @@
 <application>
   <component name="UISettings">
+    <option name="EDITOR_TAB_LIMIT" value="30" />
     <option name="FONT_FACE" value=".SFNSText-Regular" />
+    <option name="HIDE_TABS_IF_NEED" value="false" />
     <option name="HIDE_TOOL_STRIPES" value="false" />
-    <option name="PIN_FIND_IN_PATH_POPUP" value="true" />
     <option name="SHOW_MAIN_TOOLBAR" value="true" />
   </component>
 </application>

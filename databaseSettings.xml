@@ -1,5 +1,16 @@
 <application>
-  <component name="DatabaseSettings" version="2">
+  <component name="DatabaseSettings" version="3">
+    <text-mode>
+      <parameter-patterns>
+        <parameter-pattern value="#(\w+)#" in-scripts="true" scope="XML" predefined="#name#" />
+        <parameter-pattern value="(?&lt;=\W|\A)\$(\d+|[a-zA-Z_](?:\w|\.)*)\$?(?=\W|\z)" in-scripts="true" scope="*,-SQL" predefined="$a.b.c$?" />
+        <parameter-pattern value="(?&lt;=\W|\A)#(\d+|[a-zA-Z_](?:\w|\.)*)#?(?=\W|\z)" in-scripts="true" scope="*,-SQL" predefined="#a.b.c#?" />
+        <parameter-pattern value="%\((\w+)\)s" in-scripts="true" scope="Python" predefined="%(name)s" />
+        <parameter-pattern value="%\w+" in-scripts="true" scope="JAVA,Python" predefined="%name" />
+        <parameter-pattern value="\$\{([^\{\}]*)\}" in-scripts="true" predefined="${name}" />
+        <parameter-pattern value="\$\(([^\)]+)\)" in-scripts="true" predefined="$(name)" />
+      </parameter-patterns>
+    </text-mode>
     <csv-formats>
       <csv-format name="Tab-separated (TSV)" id="Tab-separated (TSV)_id">
         <data>

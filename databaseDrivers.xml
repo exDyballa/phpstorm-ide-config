@@ -10,7 +10,7 @@
     </driver>
     <driver id="azure.ms">
       <artifact name="SQL Server" use="true" />
-      <option name="auto-sync" value="false" />
+      <option name="auto-sync" value="true" />
       <option name="send-app-info" value="false" />
     </driver>
     <driver id="oracle">
@@ -34,15 +34,17 @@
       <artifact name="HSQLDB" use="true" />
       <option name="auto-sync" value="true" />
     </driver>
+    <driver id="mariadb">
+      <artifact name="MariaDB Connector J" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
     <driver id="derby.remote">
       <artifact name="Apache Derby" use="true" />
       <option name="auto-sync" value="true" />
     </driver>
     <driver id="sqlite.xerial">
-      <artifact name="Xerial SQLiteJDBC" use="true" version="3.16.1" />
+      <artifact name="Xerial SQLiteJDBC" use="true" />
       <option name="auto-sync" value="true" />
-      <option name="auto-commit" value="true" />
-      <option name="send-app-info" value="true" />
     </driver>
     <driver id="sybase.ase">
       <option name="auto-sync" value="true" />
@@ -50,10 +52,12 @@
     <driver id="postgresql">
       <artifact name="PostgreSQL" use="true" />
       <option name="auto-sync" value="true" />
+      <option name="schema-control" value="MANUAL" />
     </driver>
     <driver id="redshift">
       <artifact name="Redshift" use="true" />
       <option name="auto-sync" value="true" />
+      <option name="schema-control" value="MANUAL" />
     </driver>
     <driver id="db2">
       <artifact name="DB2" use="true" />
@@ -69,8 +73,11 @@
       <option name="auto-sync" value="false" />
     </driver>
     <driver id="mysql">
-      <artifact name="MySQL Connector/J" use="true" />
+      <artifact name="MySQL Connector/J" use="true" version="5.1.46" />
       <option name="auto-sync" value="true" />
+      <option name="auto-commit" value="true" />
+      <option name="send-app-info" value="true" />
+      <option name="schema-control" value="AUTOMATIC" />
     </driver>
     <driver id="hsqldb.remote">
       <artifact name="HSQLDB" use="true" />
