@@ -15,6 +15,7 @@
     <mask>*.css</mask>
     <mask>*.mxml</mask>
     <mask>*.js</mask>
+    <mask>*Equity*.php</mask>
     <mask>*.php</mask>
   </component>
 </application>
