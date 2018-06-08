@@ -8,6 +8,9 @@
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="meta alt left" />
   </action>
+  <action id="CloseAllEditorsButActive">
+    <keyboard-shortcut first-keystroke="meta alt w" />
+  </action>
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="meta slash" />
     <keyboard-shortcut first-keystroke="meta divide" />
@@ -60,6 +63,7 @@
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
+  <action id="SelectIn" />
   <action id="SelectNextOccurrence" />
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="meta alt s" />
