@@ -8,12 +8,11 @@
     <mask>*.jsp</mask>
     <mask>*.xml</mask>
     <mask>*.java</mask>
+    <mask>*.js</mask>
     <mask>*.as</mask>
     <mask>*.css</mask>
     <mask>*.mxml</mask>
-    <mask>*.js</mask>
-    <mask>*Equity*.php</mask>
+    <mask>*Test.php</mask>
     <mask>*.php</mask>
-    <mask>*TEST*</mask>
   </component>
 </application>
