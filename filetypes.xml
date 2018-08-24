@@ -5,7 +5,9 @@
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="tesssss" type="PLAIN_TEXT" />
       <mapping ext="ok" type="PLAIN_TEXT" />
+      <mapping ext="sql" type="PLAIN_TEXT" />
       <mapping ext="sqlite-journal" type="PLAIN_TEXT" />
+      <removed_mapping ext="sql" type="SQL" />
     </extensionMap>
   </component>
 </application>
