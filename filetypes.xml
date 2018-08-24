@@ -11,13 +11,11 @@
       <mapping ext="pkg" type="DBN-PSQL" />
       <mapping ext="pkb" type="DBN-PSQL" />
       <mapping ext="vw" type="DBN-SQL" />
-      <removed_mapping ext="sql" type="DBN-SQL" />
       <mapping pattern=".gitignore_global" type="Git file" />
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="tesssss" type="PLAIN_TEXT" />
       <mapping ext="ok" type="PLAIN_TEXT" />
       <mapping ext="sqlite-journal" type="PLAIN_TEXT" />
-      <mapping ext="sql" type="SQL" />
     </extensionMap>
   </component>
 </application>
