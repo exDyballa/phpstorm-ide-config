@@ -1,0 +1,8 @@
+<application>
+  <component name="IntentionManagerSettings">
+    <ignoreAction name="PHP/Generate PHPDoc for function" />
+    <ignoreAction name="PHP/Symfony2MethodCreateService" />
+    <ignoreAction name="PHP/Make 'private'" />
+    <ignoreAction name="PHP/Make 'protected'" />
+  </component>
+</application>
