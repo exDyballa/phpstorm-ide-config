@@ -2,4 +2,8 @@
   <component name="BaseRefactoringSettings">
     <option name="SAFE_DELETE_SEARCH_IN_COMMENTS" value="false" />
   </component>
+  <component name="PhpRefactoringSettings">
+    <option name="EXTRACT_METHOD_DEFAULT_VISIBILITY" value="private" />
+    <option name="MOVE_CLASS_SEARCH_IN_COMMENTS_AND_STRINGS" value="true" />
+  </component>
 </application>
