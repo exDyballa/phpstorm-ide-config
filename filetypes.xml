@@ -3,8 +3,10 @@
     <extensionMap>
       <mapping pattern=".gitignore_global" type="Git file" />
       <removed_mapping ext="hphp" approved="true" type="PHP" />
-      <mapping ext="sqlite-journal" type="PLAIN_TEXT" />
+      <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping ext="ok" type="PLAIN_TEXT" />
+      <mapping ext="sqlite-journal" type="PLAIN_TEXT" />
+      <removed_mapping ext="hphp" approved="true" type="PHP" />
       <mapping ext="fnc" type="DBN-PSQL" />
       <mapping ext="pkb" type="DBN-PSQL" />
       <mapping ext="pkg" type="DBN-PSQL" />
