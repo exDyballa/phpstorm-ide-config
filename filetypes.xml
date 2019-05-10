@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern=".gitignore_global" type="Git file" />
       <removed_mapping ext="hphp" approved="true" type="PHP" />
+      <mapping pattern="tst" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping ext="ok" type="PLAIN_TEXT" />
       <mapping ext="sqlite-journal" type="PLAIN_TEXT" />
